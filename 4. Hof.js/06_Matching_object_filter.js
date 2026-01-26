@@ -97,4 +97,5 @@ console.log(whatIsInAName(candidates, requirement));
 
 // every() = saari conditions match honi chahiye
 
-// 👉 Ek bhi condition fail = reject ❌
+// 👉 Ek bhi condition fail = reject ❌ 
+
