@@ -1,5 +1,5 @@
 function smallestCommons(arr){
-    // STEP 1: array ko chhote se bade order me sort karo
+    // STEP 1:- array ko chhote se bade order me sort karo
     arr.sort((a, b) => a - b);
 
     let min = arr[0];//Range-sabse chhota
@@ -131,4 +131,5 @@ console.log(smallestCommons([18, 23]));  // 6056820
 
 // Range = bus timings
 // LCM = sab buses ka ek saath aana
+
 // min–max = start aur end time
