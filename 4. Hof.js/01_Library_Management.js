@@ -9,7 +9,7 @@ const library = [
     title: 'Atomic Habits',
     author: 'James Clear',
     about: 'A practical book about discarding bad habits and building good ones',
-    pages: 320,
+    pages: 321,
   },
   {
     title: 'Choose Your Enemies Wisely: Business Planning for the Audacious Few',
@@ -82,5 +82,6 @@ console.log("\nTotal number of pages for all library books:\n");
 function getTotalPages(catalog){
   return catalog.reduce((total, book) => total + book.pages, 0)
 }
+
 
 console.log(getTotalPages(library))
