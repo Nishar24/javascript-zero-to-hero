@@ -12,7 +12,7 @@ function sumPrimes(num) {
   // kya diya gaya number PRIME hai?
   function isPrime(n) {
 
-    // 1 prime nahi hota
+    // 1 prime nahi hota.
     if (n < 2) return false;
 
     // 2 se leke sqrt(n) tak check karte hain
@@ -128,5 +128,6 @@ console.log(sumPrimes(977)); // 73156
 
 
 // 🧠 Ek line me poori kahani
+
 
 // Coins dekho → special (prime) chuno → unka total jod do
