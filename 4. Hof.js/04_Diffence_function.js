@@ -1,5 +1,5 @@
 function diffArray(arr1, arr2) {
-  // arr1 से वो elements जो arr2 में नहीं हैं
+  // arr1 se wo element jo arr2 me nhi h
   const onlyInArr1 = arr1.filter(item => !arr2.includes(item));
 
   // arr2 से वो elements जो arr1 में नहीं हैं
@@ -12,3 +12,4 @@ function diffArray(arr1, arr2) {
 console.log(
   diffArray(["diamond", "stick", "apple"], ["stick", "emerald", "bread"])
 );
+
