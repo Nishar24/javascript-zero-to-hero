@@ -1,4 +1,4 @@
-// const recipes = [];
+const recipes = [];
 
 // const recipe1 = {
 //   name: "Spaghetti Carbonara",
@@ -304,4 +304,5 @@ let obj = {
 
 let result = obj.increment().double().increment().getValue();
 console.log(result);
+
 
