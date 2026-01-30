@@ -1,4 +1,4 @@
-// 🏢 Kahani: Office Attendance Checker
+// 🏢 Kahani:- Office Attendance Checker
 
 // Socho tum ek office manager ho 👨‍💼
 
@@ -28,7 +28,7 @@
 // Har object me ek property check karo
 // agar ek bhi jagah value falsy hui → return false
 
-// 🧠 Truthy / Falsy yaad rakh (VERY IMPORTANT)
+// 🧠 Truthy / Falsy (VERY IMPORTANT)
 
 // Falsy values ❌:
 
@@ -44,7 +44,7 @@
 
 function truthCheck(collection, pre) {
 
-  // 🟢 Manager ek-ek employee ka record check karega
+  // 🟢 Manager ek-ek employee ka record check karega.
   return collection.every(obj => {
 
     // 🟢 Check karo:
@@ -166,4 +166,5 @@ console.log(
     "idCard"
   )
 );
+
 // ✅ Output: true
