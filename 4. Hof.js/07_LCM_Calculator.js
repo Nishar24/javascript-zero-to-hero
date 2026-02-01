@@ -5,7 +5,7 @@ function smallestCommons(arr){
     let min = arr[0];//Range-sabse chhota
     let max = arr[1];//Range-sabse bda
 
-    // STEP 2: GCD function (Euclidean Algorithm)
+    // STEP 2:- GCD function (Euclidean Algorithm)
     function gcd(a, b){
         while(b !== 0){
             let temp = b;
@@ -133,3 +133,4 @@ console.log(smallestCommons([18, 23]));  // 6056820
 // LCM = sab buses ka ek saath aana
 
 // min–max = start aur end time
+
