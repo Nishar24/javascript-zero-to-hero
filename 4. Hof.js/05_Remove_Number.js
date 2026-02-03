@@ -4,7 +4,7 @@ function destroyer(arr) {
   return arr.filter(item => !valuesToRemove.includes(item));
 }
 
-console.log(destroyer([1, 2, 3, 1, 2, 3], 2, 3));
+// console.log(destroyer([1, 2, 3, 1, 2, 3], 2, 3));
 // [1, 1]
 
 console.log(destroyer(["tree", "hamburger", 53], "tree", 53));
@@ -12,4 +12,5 @@ console.log(destroyer(["tree", "hamburger", 53], "tree", 53));
 
 console.log(destroyer([2, 3, 2, 3], 2, 3));
 /// []
+
 
