@@ -7,7 +7,7 @@ function sumPrimes(num) {
     return 0;
   }
 
-  // 🟢 STEP 1:
+  // 🟢 STEP 1:-
   // Ye function check karega:
   // kya diya gaya number PRIME hai?
   function isPrime(n) {
@@ -131,4 +131,5 @@ console.log(sumPrimes(977)); // 73156
 
 
 // Coins dekho → special (prime) chuno → unka total jod do
+
 
