@@ -11,6 +11,7 @@ console.log(destroyer(["tree", "hamburger", 53], "tree", 53));
 // ["hamburger"]
 
 console.log(destroyer([2, 3, 2, 3], 2, 3));
-/// []
+// []
+
 
 
