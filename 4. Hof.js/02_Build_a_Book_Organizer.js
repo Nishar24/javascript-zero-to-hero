@@ -2,7 +2,7 @@ const books = [
   {
     title: "1985",
     authorName: "George Orwell",
-    releaseYear: 1949
+    releaseYear: 1950
   },
   {
     title: "To Kill a Mockingbird",
@@ -29,4 +29,5 @@ const filteredBooks = books.filter(book => book.releaseYear <= 1950);
 
 filteredBooks.sort(sortByYear);
 console.log(filteredBooks);
+
 
