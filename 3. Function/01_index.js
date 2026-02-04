@@ -4,7 +4,7 @@ const recipes = [];
    name: "Spaghetti Carbonara",
    ingredients: ["spaghetti", "Parmesan cheese", "pancetta", "black pepper"], 
    cookingTime: 22,
-//   totalIngredients: null,
+   totalIngredients: null,
    difficultyLevel: ""
 // };
 
@@ -304,6 +304,7 @@ let obj = {
 
 let result = obj.increment().double().increment().getValue();
 console.log(result);
+
 
 
 
