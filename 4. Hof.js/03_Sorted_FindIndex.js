@@ -9,6 +9,7 @@ function getIndexToIns(arr, num) {
   return index === -1 ? arr.length : index;
 }
 
-console.log(getIndexToIns([1, 2, 3, 4], 1.5)); // 1
+// console.log(getIndexToIns([1, 2, 3, 4], 1.5)); // 1
 console.log(getIndexToIns([20, 3, 5], 19));   // 2
 console.log(getIndexToIns([], 5));             // 0
+
