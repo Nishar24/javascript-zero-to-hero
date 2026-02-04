@@ -10,7 +10,7 @@ const library = [
     title: 'Atomic Habits',
     author: 'James Clear',
     about: 'A practical book about discarding bad habits and building good ones',
-    pages: 321,
+    pages: 305,
   },
   {
     title: 'Choose Your Enemies Wisely: Business Planning for the Audacious Few',
@@ -86,4 +86,5 @@ function getTotalPages(catalog){
 
 
 console.log(getTotalPages(library))
+
 
