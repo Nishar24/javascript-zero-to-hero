@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Click Event Example</title>
+</head>
+<body>
+
+  <!-- Ye button real life ke switch jaisa hai -->
+  <button id="switchBtn">Switch Dabao</button>
+
+  <!-- Yahan result show hoga -->
+  <p id="result"></p>
+
+  <script>
+    // Button ko pakad rahe hain
+    const button = document.getElementById("switchBtn");
+
+    // Click event lagaya
+    button.addEventListener("click", function () {
+
+      // Jaise hi button dabega ye code chalega
+      document.getElementById("result").innerText =
+        "💡 Light ON ho gayi (Button Click hua)";
+
+    });
+
+  </script>
+
+</body>
+</html>
