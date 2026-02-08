@@ -30,6 +30,23 @@
             isLightOn = true;
         }
     });
+
+    // Button ko select kiya
+    const button = document.getElementById("btn");
+    // Click event with ARROW FUNCTION
+    button.addEventListener("click", () => {
+
+      // condition check (ON / OFF)
+      if (isLightOn) {
+        document.getElementById("status").innerText = "❌ Light OFF";
+        isLightOn = false;
+      } else {
+        document.getElementById("status").innerText = "💡 Light ON";
+        isLightOn = true;
+      }
+
+    });
 </script>
 
 </html>
+
