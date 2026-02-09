@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Event</title>
+</head>
+<body>
+    <!-- 📖 Real Life Kahani (Story)
+
+Socho 👇
+
+Sana bank form bhar rahi hai 🏦
+Jaise-jaise wo apna naam likhti jaati hai, clerk ko turant dikh jaata hai ✍️
+
+👉 Likha = Input Event
+👉 Turant update = JavaScript response -->
+
+<!-- User yahan type karega -->
+ <input
+    type="text"
+    id="nameInput"
+    placeholder="Sana"
+ />
+
+<!-- Yahan live output dikhega -->
+<p id="output"></p>
+
+</body>
+
+<script>
+
+    // Input element ko pakad liya
+    const inputBox = document.getElementById("nameInput");
+
+    // Input event (har type par chalega)
+    inputBox.addEventListener("input", () =>{
+
+        // User jo likh raha hai
+        const value = inputBox.value;
+
+        // Screen par dikhana
+        document.getElementById("input").innerText = "Aap likh rahe ho: " + value;
+    })
+   
+/*📌 Interview Line:
+
+input event = live typing
+change event = final value 
+
+//🔍 Difference: input vs change
+// Event	Kab Chalta Hai
+// input	Har letter type par
+// change	Focus chhodne par
+// keyup	Key chhodte hi
+
+</script>
+</html>
