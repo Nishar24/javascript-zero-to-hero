@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Object</title>
+</head>
+<body>
+    <!-- Socho 👇
+
+Ek office hai 🏢
+Darwaze par automatic bell lagi hai 🔔
+Jaise hi koi button dabata hai, system poori report bana leta hai:
+
+Kisne dabaya?
+
+Kaunsa button?
+
+Kab dabaya?
+
+👉 Button dabna = Event
+👉 Report = Event Object (event)
+👉 Automatic system = Arrow Function (short & smart 😎)
+
+🔁 Real Life ↔ JavaScript Mapping
+Real Life	JavaScript
+Button dabna	Event
+Report file	event object
+Kaunsa button	event.target
+Kaunsa action	event.type
+Time	event.timeStamp -->
+
+<!-- Ye button automatic bell jaisa hai -->
+ <button id="autoBtn">Button Dabao</button>
+
+ <p id="output"></p>
+</body>
+<script>
+    // Button ko select kiya
+    const button = document.getElementById("autoBtn")
+
+    // Arrow function ke saath event listener
+    button.addEventListener("click", (event) =>{
+      // event = poori report
+      // event.type = kaunsa event (click)
+      // event.target = kis element ne trigger kiya
+      // event.timeStamp = kab hua 
+      document.getElementById("output").innerText = 
+       "Event Type: " + event.type + 
+       "Element: " + event.target.tagName + 
+       "Time: " + Math.floor(event.timeStamp);
+    })
+</script>
+</html>
+
+<!-- preventDefault() -->
+<!-- 📖 Kahani:
+
+Online form submit hone se pehle system bolta hai:
+“Ruko! Page reload mat karo” -->
+
+<!-- <form id="myForm">
+  <input type="text" placeholder="Naam likho" />
+  <button>Submit</button>
+</form>
+
+<script>
+  document.getElementById("myForm")
+    .addEventListener("submit", (event) => {
+
+      // Default behavior rok diya
+      event.preventDefault();
+
+      alert("Form submit hua, page reload nahi hua 👍");
+    });
+</script> -->
+
+
+
