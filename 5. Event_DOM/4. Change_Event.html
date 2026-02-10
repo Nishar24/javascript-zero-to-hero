@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Event</title>
+</head>
+<body style="background-color: #212121; color:#fff">
+    <input
+     type=""
+     id="cityInput"
+     placeholder="CityName"
+    />
+
+    <p id="result"></p>
+     
+</body>
+<script>
+      const city = document.getElementById("cityInput");
+
+      // change event
+      city.addEventListener("change", () =>{
+        document.getElementById("result").innerText = "Final City Name: " + city.value;
+      })
+</script>
+</html>
+
+<!-- 🧠 One-Line Yaad Rakhne Ka Rule ⭐ 
+
+Input Event = Type karo → turant result
+Change Event = Type karo → confirm karo → result -->
