@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listener Example</title>
+</head>
+<body>
+<!-- 📖 Real-Life Kahani (Story Style)
+
+Socho 👇
+
+Office me watchman khada hai 🚪
+
+Koi bell bajata hai 🔔 → watchman darwaza kholta hai
+
+Koi fire alarm bajata hai 🚨 → watchman sabko bahar nikalta hai
+
+👉 Watchman alag-alag events sun raha hai
+👉 Yehi kaam JS me addEventListener karta hai
+
+🔁 Real Life vs JavaScript Mapping
+Real Life	JavaScript
+Watchman	addEventListener
+Bell bajna	Event (click)
+Fire alarm	Event (mouseover, keydown)
+Action lena	Function execute -->
+ 
+ <!-- Bell jaisa button -->
+  <button id="bell">Bell Bajao</button>
+
+  <p id="status"></p>
+
+</body>
+<script>
+    // Bell button ko pakad liya
+        const bellButton = document.getElementById("bell");
+
+        // Watchman sun raha hai: CLICK event
+        bellButton.addEventListener("click", function () {
+            // Bell bajne par action
+            document.getElementById("status").innerText = "🔔 Bell baji! Darwaza khul gaya";
+
+            bellButton.addEventListener("click", () => {
+                console.log("Click suna");
+            });
+
+            bellButton.addEventListener("mouseover", () => {
+                console.log("Mouse upar gaya");
+            });
+    })
+</script>
+</html>
+
+<!-- 📌 Interview Point:
+
+onclick sirf ek kaam karta hai
+addEventListener multiple events handle karta hai ✅
+
+⚡ Real Project Use
+
+Form validation
+
+Button clicks
+
+Keyboard shortcuts
+
+API call triggers
+-->
