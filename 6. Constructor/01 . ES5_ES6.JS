@@ -17,7 +17,7 @@
 function Mobile(brand, model, price){
      // 'this' refers to the new mobile object being created
 
-     this.brand = brand;  // mobile ka brand set ho raha hai
+     this.brand = brand;  // mobile ka brand set ho rha hai
      this.model = model;  // mobile ka model
      this.price = price;  // mobile ki price
 }
@@ -64,3 +64,4 @@ class Mobile {
 
 const mobile1 = new Mobile("Samsung", "S23", 70000)
 mobile1.showDetails();
+
