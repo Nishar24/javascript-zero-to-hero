@@ -8,7 +8,7 @@ const recipes = [];
    difficultyLevel: ""
  };
 
-// const recipe2 = {
+const recipe2 = {
 //   name: "Chicken Curry",
 //   ingredients: ["chicken breast", "coconut milk", "curry powder", "onion", "garlic"],
 //   cookingTime: 42,
@@ -304,6 +304,7 @@ let obj = {
 
 let result = obj.increment().double().increment().getValue();
 console.log(result);
+
 
 
 
