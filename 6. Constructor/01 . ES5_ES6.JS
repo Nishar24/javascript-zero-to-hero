@@ -57,11 +57,12 @@ class Mobile {
     }
 
     showDetails() {
-        console.log(`Brand: ${this.brand}, Model: ${this.model}, Price: Rs-${this.price}`);
+        console.log(`Brand: ${this.brand}, Model: ${this.model}, Price: Rs-${this.price}`);// easy way to print the details
         
     }
 }
 
 const mobile1 = new Mobile("Samsung", "S23", 70000)
 mobile1.showDetails();
+
 
