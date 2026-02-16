@@ -4,7 +4,7 @@
 
 // Company tumse promise karti hai:
 
-// 📦 Deliver ho gaya → resolve(.then)
+// 📦 Deliver ho gaya :→ resolve(.then)
 
 // ❌ Out of stock / cancel → reject(.catch)
 
@@ -62,4 +62,5 @@ foodOrder
     
     
   });
+
  
