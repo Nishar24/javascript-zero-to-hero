@@ -14,7 +14,7 @@ function makeChai(callback) {
   }, 2000); // 2 second lag rahe hain
 }
 
-// Step 4: Callback function (jab chai ready ho)
+// Step 4: Callback function (jab chai ready ho tb call krega)
 function drinkChai() {
   console.log("😋 Chai peena start");
 }
@@ -31,6 +31,7 @@ makeChai(drinkChai);
 // callback() → “Ab agla kaam chalao”
 
 // drinkChai → callback function
+
 
 
 
