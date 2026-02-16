@@ -7,7 +7,7 @@
 
 // Balance nahi → Transaction fail (reject)
 
-// function cash(){
+function cash(){
 //    return new Promise((resolve, reject) =>{
 //     console.log("Cash h ATM Machine me");
 
@@ -51,4 +51,5 @@ function withdrawMoney(balance){
 
 withdrawMoney(500)
   .then((msg) => console.log(msg))
+
   .catch((err) => console.log(err))
