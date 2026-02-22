@@ -13,7 +13,7 @@ const recipe2 = {
    ingredients: ["chicken breast", "coconut milk", "curry powder", "onion", "garlic"],
    cookingTime: 42,
    totalIngredients: null,
-//   difficultyLevel: ""
+   difficultyLevel: ""
 // };
 
 // const recipe3 = {
@@ -304,6 +304,7 @@ let obj = {
 
 let result = obj.increment().double().increment().getValue();
 console.log(result);
+
 
 
 
