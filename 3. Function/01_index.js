@@ -17,7 +17,7 @@ const recipe2 = {
 };
 
  const recipe3 = {
-//   name: "Vegetable Stir Fry",
+   name: "Vegetable Stir Fry",
 //   ingredients: ["broccoli", "carrot", "bell pepper"],
 //   cookingTime: 15,
 //   totalIngredients: null,
@@ -304,6 +304,7 @@ let obj = {
 
 let result = obj.increment().double().increment().getValue();
 console.log(result);
+
 
 
 
