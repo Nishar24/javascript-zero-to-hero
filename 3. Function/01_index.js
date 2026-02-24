@@ -14,7 +14,7 @@ const recipe2 = {
    cookingTime: 42,
    totalIngredients: null,
    difficultyLevel: ""
-// };
+};
 
 // const recipe3 = {
 //   name: "Vegetable Stir Fry",
@@ -304,6 +304,7 @@ let obj = {
 
 let result = obj.increment().double().increment().getValue();
 console.log(result);
+
 
 
 
