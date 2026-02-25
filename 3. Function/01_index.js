@@ -20,7 +20,7 @@ const recipe2 = {
    name: "Vegetable Stir Fry",
    ingredients: ["broccoli", "carrot", "bell pepper"],
    cookingTime: 15,
-//   totalIngredients: null,
+   totalIngredients: null,
 //   difficultyLevel: ""
 // };
 
@@ -304,6 +304,7 @@ let obj = {
 
 let result = obj.increment().double().increment().getValue();
 console.log(result);
+
 
 
 
