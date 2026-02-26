@@ -21,7 +21,7 @@ const recipe2 = {
    ingredients: ["broccoli", "carrot", "bell pepper"],
    cookingTime: 15,
    totalIngredients: null,
-//   difficultyLevel: ""
+   difficultyLevel: ""
 // };
 
 // recipes.push(recipe1, recipe2, recipe3);
@@ -304,6 +304,7 @@ let obj = {
 
 let result = obj.increment().double().increment().getValue();
 console.log(result);
+
 
 
 
