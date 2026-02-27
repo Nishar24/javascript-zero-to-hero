@@ -24,7 +24,8 @@ const recipe2 = {
    difficultyLevel: ""
  };
 
-// recipes.push(recipe1, recipe2, recipe3);
+
+ recipes.push(recipe1, recipe2, recipe3);
 
 // function getTotalIngredients(ingredients) {
 //   return ingredients.length;
@@ -304,6 +305,7 @@ let obj = {
 
 let result = obj.increment().double().increment().getValue();
 console.log(result);
+
 
 
 
