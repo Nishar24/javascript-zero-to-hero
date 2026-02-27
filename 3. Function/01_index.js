@@ -27,7 +27,7 @@ const recipe2 = {
 
  recipes.push(recipe1, recipe2, recipe3);
 
-// function getTotalIngredients(ingredients) {
+ function getTotalIngredients(ingredients) {
 //   return ingredients.length;
 // }
 
@@ -305,6 +305,7 @@ let obj = {
 
 let result = obj.increment().double().increment().getValue();
 console.log(result);
+
 
 
 
