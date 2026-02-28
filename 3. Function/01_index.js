@@ -29,7 +29,7 @@ const recipe2 = {
 
  function getTotalIngredients(ingredients) {
    return ingredients.length;
-// }
+ }
 
 // function getDifficultyLevel(cookingTime) {
 //   if (cookingTime <= 30) {
@@ -305,6 +305,7 @@ let obj = {
 
 let result = obj.increment().double().increment().getValue();
 console.log(result);
+
 
 
 
