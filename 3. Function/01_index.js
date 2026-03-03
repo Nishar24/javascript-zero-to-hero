@@ -36,7 +36,7 @@ const recipe2 = {
   return "easy";
    } else if (cookingTime <= 60) {
      return "medium";
-//   } else {
+   } else {
 //     return "hard";
 //   }
 // }
@@ -305,6 +305,7 @@ let obj = {
 
 let result = obj.increment().double().increment().getValue();
 console.log(result);
+
 
 
 
