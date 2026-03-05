@@ -38,7 +38,7 @@ const recipe2 = {
      return "medium";
    } else {
      return "hard";
-//   }
+   }
 // }
 
 // const recipe1TotalIngredients = getTotalIngredients(recipe1.ingredients);
@@ -305,6 +305,7 @@ let obj = {
 
 let result = obj.increment().double().increment().getValue();
 console.log(result);
+
 
 
 
