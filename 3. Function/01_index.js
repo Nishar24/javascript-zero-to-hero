@@ -42,7 +42,7 @@ const recipe2 = {
  }
 
  const recipe1TotalIngredients = getTotalIngredients(recipe1.ingredients);
-// console.log(recipe1TotalIngredients);
+ console.log(recipe1TotalIngredients);
 
 // const recipe1DifficultyLevel = getDifficultyLevel(recipe1.cookingTime);
 // console.log(recipe1DifficultyLevel);
@@ -305,6 +305,7 @@ let obj = {
 
 let result = obj.increment().double().increment().getValue();
 console.log(result);
+
 
 
 
