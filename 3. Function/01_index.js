@@ -56,7 +56,7 @@ const recipe2 = {
  recipe3.totalIngredients = getTotalIngredients(recipe3.ingredients);
  recipe3.difficultyLevel = getDifficultyLevel(recipe3.cookingTime);
 
-// console.log(recipes);
+ console.log(recipes);
 
 
 // // 1. Create an array named questions
