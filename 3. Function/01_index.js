@@ -51,7 +51,7 @@ const recipe2 = {
  recipe1.difficultyLevel = getDifficultyLevel(recipe1.cookingTime);
 
  recipe2.totalIngredients = getTotalIngredients(recipe2.ingredients);
-// recipe2.difficultyLevel = getDifficultyLevel(recipe2.cookingTime);
+ recipe2.difficultyLevel = getDifficultyLevel(recipe2.cookingTime);
 
 // recipe3.totalIngredients = getTotalIngredients(recipe3.ingredients);
 // recipe3.difficultyLevel = getDifficultyLevel(recipe3.cookingTime);
