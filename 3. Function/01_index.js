@@ -61,7 +61,7 @@ const recipe2 = {
 
  // 1. Create an array named questions
  const questions = [
-//   {
+   {
 //     category: "Science",
 //     question: "What planet is known as the Red Planet?",
 //     choices: ["Mars", "Venus", "Jupiter"],
