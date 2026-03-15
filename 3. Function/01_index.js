@@ -59,7 +59,7 @@ const recipe2 = {
  console.log(recipes);
 
 
-// // 1. Create an array named questions
+ // 1. Create an array named questions
 // const questions = [
 //   {
 //     category: "Science",
