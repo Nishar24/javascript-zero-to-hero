@@ -63,7 +63,7 @@ const recipe2 = {
  const questions = [
    {
      category: "Science",
-//     question: "What planet is known as the Red Planet?",
+     question: "What planet is known as the Red Planet?",
 //     choices: ["Mars", "Venus", "Jupiter"],
 //     answer: "Mars"
 //   },
