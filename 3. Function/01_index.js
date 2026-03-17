@@ -65,7 +65,7 @@ const recipe2 = {
      category: "Science",
      question: "What planet is known as the Red Planet?",
      choices: ["Mars", "Venus", "Jupiter"],
-//     answer: "Mars"
+     answer: "Mars"
 //   },
 //   {
 //     category: "Geography",
