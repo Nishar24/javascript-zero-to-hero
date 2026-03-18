@@ -68,7 +68,7 @@ const recipe2 = {
      answer: "Mars"
    },
    {
-//     category: "Geography",
+     category: "Geography",
 //     question: "What is the capital of India?",
 //     choices: ["Mumbai", "Delhi", "Kolkata"],
 //     answer: "Delhi"
