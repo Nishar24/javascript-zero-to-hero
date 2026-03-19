@@ -70,7 +70,7 @@ const recipe2 = {
    {
      category: "Geography",
      question: "What is the capital of India?",
-//     choices: ["Mumbai", "Delhi", "Kolkata"],
+     choices: ["Mumbai", "Delhi", "Kolkata"],
 //     answer: "Delhi"
 //   },
 //   {
