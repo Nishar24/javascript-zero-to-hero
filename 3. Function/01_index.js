@@ -72,7 +72,7 @@ const recipe2 = {
      question: "What is the capital of India?",
      choices: ["Mumbai", "Delhi", "Kolkata"],
      answer: "Delhi"
-//   },
+   },
 //   {
 //     category: "Math",
 //     question: "What is 5 + 7?",
