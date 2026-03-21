@@ -73,7 +73,7 @@ const recipe2 = {
      choices: ["Mumbai", "Delhi", "Kolkata"],
      answer: "Delhi"
    },
-//   {
+   {
 //     category: "Math",
 //     question: "What is 5 + 7?",
 //     choices: ["10", "12", "14"],
