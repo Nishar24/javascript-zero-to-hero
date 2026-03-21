@@ -74,7 +74,7 @@ const recipe2 = {
      answer: "Delhi"
    },
    {
-//     category: "Math",
+     category: "Math",
 //     question: "What is 5 + 7?",
 //     choices: ["10", "12", "14"],
 //     answer: "12"
