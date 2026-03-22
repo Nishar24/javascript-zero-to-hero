@@ -76,7 +76,7 @@ const recipe2 = {
    {
      category: "Math",
      question: "What is 5 + 7?",
-//     choices: ["10", "12", "14"],
+     choices: ["10", "12", "14"],
 //     answer: "12"
 //   },
 //   {
