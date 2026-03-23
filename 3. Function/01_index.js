@@ -78,7 +78,7 @@ const recipe2 = {
      question: "What is 5 + 7?",
      choices: ["10", "12", "14"],
      answer: "12"
-//   },
+   },
 //   {
 //     category: "History",
 //     question: "Who was the first President of the United States?",
