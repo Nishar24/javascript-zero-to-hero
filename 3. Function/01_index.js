@@ -84,7 +84,7 @@ const recipe2 = {
      question: "Who was the first President of the United States?",
      choices: ["George Washington", "Abraham Lincoln", "John Adams"],
      answer: "George Washington"
-//   },
+   },
 //   {
 //     category: "Programming",
 //     question: "Which language runs in a web browser?",
