@@ -86,7 +86,7 @@ const recipe2 = {
      answer: "George Washington"
    },
    {
-//     category: "Programming",
+     category: "Programming",
 //     question: "Which language runs in a web browser?",
 //     choices: ["Java", "C", "JavaScript"],
 //     answer: "JavaScript"
