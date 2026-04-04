@@ -88,7 +88,7 @@ const recipe2 = {
    {
      category: "Programming",
      question: "Which language runs in a web browser?",
-//     choices: ["Java", "C", "JavaScript"],
+     choices: ["Java", "C", "JavaScript"],
 //     answer: "JavaScript"
 //   }
 // ];
