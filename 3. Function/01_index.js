@@ -90,7 +90,7 @@ const recipe2 = {
      question: "Which language runs in a web browser?",
      choices: ["Java", "C", "JavaScript"],
      answer: "JavaScript"
-//   }
+   }
 // ];
 
 // // 2. Function to get a random question
