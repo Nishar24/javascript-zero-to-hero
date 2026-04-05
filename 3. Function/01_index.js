@@ -91,7 +91,7 @@ const recipe2 = {
      choices: ["Java", "C", "JavaScript"],
      answer: "JavaScript"
    }
-// ];
+ ];
 
 // // 2. Function to get a random question
 // function getRandomQuestion(questionsArray) {
