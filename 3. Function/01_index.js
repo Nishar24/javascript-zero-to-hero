@@ -95,7 +95,7 @@ const recipe2 = {
 
  // 2. Function to get a random question
  function getRandomQuestion(questionsArray) {
-//   const randomIndex = Math.floor(Math.random() * questionsArray.length);
+   const randomIndex = Math.floor(Math.random() * questionsArray.length);
 //   return questionsArray[randomIndex];
 // }
 
