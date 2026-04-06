@@ -97,7 +97,7 @@ const recipe2 = {
  function getRandomQuestion(questionsArray) {
    const randomIndex = Math.floor(Math.random() * questionsArray.length);
    return questionsArray[randomIndex];
-// }
+ }
 
 // // 3. Function to get a random computer choice
 // function getRandomComputerChoice(choicesArray) {
