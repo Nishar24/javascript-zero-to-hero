@@ -99,7 +99,7 @@ const recipe2 = {
    return questionsArray[randomIndex];
  }
 
-// // 3. Function to get a random computer choice
+ // 3. Function to get a random computer choice
 // function getRandomComputerChoice(choicesArray) {
 //   const randomIndex = Math.floor(Math.random() * choicesArray.length);
 //   return choicesArray[randomIndex];
