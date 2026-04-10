@@ -105,7 +105,7 @@ const recipe2 = {
    return choicesArray[randomIndex];
  }
  
-// 4. Function to get results
+ 4. Function to get results
 // function getResults(questionObject, computerChoice) {
 //   if (computerChoice === questionObject.answer) {
 //     return "The computer's choice is correct!";
