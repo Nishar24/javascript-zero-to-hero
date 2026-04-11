@@ -110,7 +110,7 @@ function getResults(questionObject, computerChoice) {
    if (computerChoice === questionObject.answer) {
      return "The computer's choice is correct!";
    } else {
-//     return `The computer's choice is wrong. The correct answer is: ${questionObject.answer}`;
+     return `The computer's choice is wrong. The correct answer is: ${questionObject.answer}`;
 //   }
 // }
 
