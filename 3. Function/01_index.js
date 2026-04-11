@@ -108,7 +108,7 @@ const recipe2 = {
  4. Function to get results
 function getResults(questionObject, computerChoice) {
    if (computerChoice === questionObject.answer) {
-//     return "The computer's choice is correct!";
+     return "The computer's choice is correct!";
 //   } else {
 //     return `The computer's choice is wrong. The correct answer is: ${questionObject.answer}`;
 //   }
