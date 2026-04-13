@@ -112,7 +112,7 @@ function getResults(questionObject, computerChoice) {
    } else {
      return `The computer's choice is wrong. The correct answer is: ${questionObject.answer}`;
    }
-// }
+ }
 
 
 // let count = 0;
