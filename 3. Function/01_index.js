@@ -119,7 +119,7 @@ function getResults(questionObject, computerChoice) {
 
  function cardCounter(card) {
    // Increase count for low cards
-//   if (card === 2 || card === 3 || card === 4 || card === 5 || card === 6) {
+   if (card === 2 || card === 3 || card === 4 || card === 5 || card === 6) {
 //     count++;
 //   }
 //   // Decrease count for high cards
