@@ -118,7 +118,7 @@ function getResults(questionObject, computerChoice) {
  let count = 0;
 
  function cardCounter(card) {
-//   // Increase count for low cards
+   // Increase count for low cards
 //   if (card === 2 || card === 3 || card === 4 || card === 5 || card === 6) {
 //     count++;
 //   }
