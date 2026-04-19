@@ -125,7 +125,7 @@ function getResults(questionObject, computerChoice) {
    // Decrease count for high cards
    else if (card === 10 || card === "J" || card === "Q" || card === "K" || card === "A") {
      count--;
-//   }
+  }
 //   // Cards 7, 8, 9 do nothing
 
 //   // Decide Bet or Hold
