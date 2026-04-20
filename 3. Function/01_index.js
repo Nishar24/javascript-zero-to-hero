@@ -129,7 +129,7 @@ function getResults(questionObject, computerChoice) {
   // Cards 7, 8, 9 do nothing
 
    // Decide Bet or Hold
-//   if (count > 0) {
+   if (count > 0) {
 //     return count + " Bet";
 //   } else {
 //     return count + " Hold";
