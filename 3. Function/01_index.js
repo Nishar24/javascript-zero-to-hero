@@ -131,7 +131,7 @@ function getResults(questionObject, computerChoice) {
    // Decide Bet or Hold
    if (count > 0) {
      return count + " Bet";
-//   } else {
+   } else {
 //     return count + " Hold";
 //   }
 // }
