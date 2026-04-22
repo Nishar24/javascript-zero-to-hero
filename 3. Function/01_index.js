@@ -133,7 +133,7 @@ function getResults(questionObject, computerChoice) {
      return count + " Bet";
    } else {
      return count + " Hold";
-//   }
+  }
 // }
 
 // const calculateTotal = (amount, taxRate = 0.05) =>{
