@@ -141,7 +141,7 @@ function getResults(questionObject, computerChoice) {
 } 
 console.log(calculateTotal(100));
   function greet(){
-//     const developer = "nishar";
+     const developer = "nishar";
 //     console.log("anamika");
     
 //  }
