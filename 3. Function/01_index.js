@@ -140,7 +140,7 @@ function getResults(questionObject, computerChoice) {
     return amount + (amount * taxRate);
 } 
 console.log(calculateTotal(100));
-//  function greet(){
+  function greet(){
 //     const developer = "nishar";
 //     console.log("anamika");
     
