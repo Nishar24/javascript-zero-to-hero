@@ -144,7 +144,7 @@ console.log(calculateTotal(100));
      const developer = "nishar";
      console.log("anamika");
     
-//  }
+  }
 //  console.log(developer);
 
 // function exampleFunction (){
