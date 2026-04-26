@@ -145,7 +145,7 @@ console.log(calculateTotal(100));
      console.log("anamika");
     
   }
-//  console.log(developer);
+  console.log(developer);
 
 // function exampleFunction (){
 //     return "Nishar";
