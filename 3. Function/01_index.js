@@ -147,7 +147,7 @@ console.log(calculateTotal(100));
   }
   console.log(developer);
 
-// function exampleFunction (){
+ function exampleFunction (){
 //     return "Nishar";
 //     return "Anamika";
 // }
