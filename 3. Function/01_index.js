@@ -152,8 +152,9 @@ console.log(calculateTotal(100));
      return "Anamika";
  }
 
- const developer = "Nishar";
-// function greet(){
+ const developer = "Nishar"
+  
+ function greet(){
 //     console.log("hello " + developer);
     
 // }
