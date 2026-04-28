@@ -150,7 +150,7 @@ console.log(calculateTotal(100));
  function exampleFunction (){
      return "Nishar";
      return "Anamika";
-// }
+ }
 
 // const developer = "Nishar";
 // function greet(){
