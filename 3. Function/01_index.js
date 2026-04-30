@@ -157,7 +157,7 @@ console.log(calculateTotal(100));
  function greet(){
      console.log("hello " + developer);
     
-// }
+ }
 // greet();
  
 // const sum = (num1, num2) => num1 + num2 
