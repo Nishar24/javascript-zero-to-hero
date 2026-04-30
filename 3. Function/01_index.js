@@ -155,7 +155,7 @@ console.log(calculateTotal(100));
  const developer = "Nishar"
   
  function greet(){
-//     console.log("hello " + developer);
+     console.log("hello " + developer);
     
 // }
 // greet();
