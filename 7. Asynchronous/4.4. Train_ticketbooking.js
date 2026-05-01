@@ -35,5 +35,5 @@ async function travel(){
         
     }
 }
-// Hamesha Async function call hoga 
+// Hamesha Async function call hoga.
 travel();
