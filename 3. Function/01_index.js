@@ -160,7 +160,7 @@ console.log(calculateTotal(100));
  }
  greet();
  
-// const sum = (num1, num2) => num1 + num2 
+const sum = (num1, num2) => num1 + num2 
 // console.log(sum(0, 0) + 10);
 
 // const exampleFunction =(param1, param2) => param1 + param2
