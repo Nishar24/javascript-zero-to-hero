@@ -167,7 +167,7 @@ const exampleFunction =(param1, param2) => param1 + param2
 console.log(exampleFunction(3, "Something"));
 
 const sum = (num1, num2) => num1 + num2
-// console.log(sum(0, 0) + num2);
+console.log(sum(0, 0) + num2);
 
 // const divideTwoNumber = (num1, num2) => num1 / num2
 // console.log(divideTwoNumber(3, 0));
