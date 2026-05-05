@@ -170,7 +170,7 @@ const sum = (num1, num2) => num1 + num2
 console.log(sum(0, 0) + num2);
 
  const divideTwoNumber = (num1, num2) => num1 / num2
-// console.log(divideTwoNumber(3, 0));
+ console.log(divideTwoNumber(3, 0));
 
 // let numbers = [3, 4, 5, 6, 7, 8];
 // numbers.forEach(function(number){
