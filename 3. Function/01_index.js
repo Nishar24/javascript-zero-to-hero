@@ -173,7 +173,7 @@ console.log(sum(0, 0) + num2);
  console.log(divideTwoNumber(3, 0));
 
  let numbers = [3, 4, 5, 6, 7, 8];
-// numbers.forEach(function(number){
+ numbers.forEach(function(number){
 //     console.log(number * 2);
     
 // })
