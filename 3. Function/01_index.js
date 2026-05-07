@@ -176,7 +176,7 @@ console.log(sum(0, 0) + num2);
  numbers.forEach(function(number){
      console.log(number * 2);
     
-// })
+ })
 
 // let numbers = [1, 2, 3, 4, 5];
 // numbers.forEach((number, index, array) =>{
