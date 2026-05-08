@@ -182,7 +182,7 @@ console.log(sum(0, 0) + num2);
  numbers.forEach((number, index, array) =>{
      console.log(`Element ${number} is at index ${index} in array ${array}`);
     
-// })
+ })
 
 //higher order function
 // function multiplyBy(factor){
