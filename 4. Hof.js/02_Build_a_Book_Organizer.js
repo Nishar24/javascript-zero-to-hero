@@ -25,6 +25,8 @@ function sortByYear(book1, book2) {
     return 0;
   }
 }
+
+// Practice more and more
 const filteredBooks = books.filter(book => book.releaseYear <= 1950);
 
 filteredBooks.sort(sortByYear);
