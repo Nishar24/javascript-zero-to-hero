@@ -1,6 +1,6 @@
 function sumPrimes(num) {
 
-  // 🟢 STEP 0:
+  // 🟢 STEP 0:-
   // Agar number 2 se chhota hai,
   // to koi prime exist hi nahi karta
   if (num < 2) {
