@@ -7,7 +7,7 @@ function sumPrimes(num) {
     return 0;
   }
 
-  // 🟢 STEP 1:
+  // 🟢 STEP 1:-
   // Ye function check karega:
   // kya diya gaya number PRIME hai?
   function isPrime(n) {
