@@ -186,7 +186,7 @@ console.log(sum(0, 0) + num2);
 
 //higher order function
 function multiplyBy(factor){
-//     return function(number){
+    return function(number){
 //         return number * factor;
 //     }
 // }
