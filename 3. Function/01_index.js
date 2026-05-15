@@ -188,7 +188,7 @@ console.log(sum(0, 0) + num2);
 function multiplyBy(factor){
     return function(number){
         return number * factor;
-//     }
+    }
 // }
 
 // let double = multiplyBy(2);
