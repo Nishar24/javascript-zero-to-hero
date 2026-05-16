@@ -189,9 +189,9 @@ function multiplyBy(factor){
     return function(number){
         return number * factor;
     }
-// }
+ }
 
-// let double = multiplyBy(2);
+ let double = multiplyBy(2);
 // let triple = multiplyBy(3);
 
 // console.log(double(5));
