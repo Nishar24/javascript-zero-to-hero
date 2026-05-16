@@ -194,7 +194,7 @@ function multiplyBy(factor){
  let double = multiplyBy(2);
  let triple = multiplyBy(3);
 
-// console.log(double(5));
+ console.log(double(5));
 // console.log(triple(10));
 
 // const numbers = [1, 2, 3, 4];
