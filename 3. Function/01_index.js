@@ -192,7 +192,7 @@ function multiplyBy(factor){
  }
 
  let double = multiplyBy(2);
-// let triple = multiplyBy(3);
+ let triple = multiplyBy(3);
 
 // console.log(double(5));
 // console.log(triple(10));
