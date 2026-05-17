@@ -197,7 +197,7 @@ function multiplyBy(factor){
  console.log(double(5));
  console.log(triple(10));
 
-// const numbers = [1, 2, 3, 4];
+ const numbers = [1, 2, 3, 4];
 // const doubled = numbers.map((num) => num * 2);
 
 // console.log(numbers);
