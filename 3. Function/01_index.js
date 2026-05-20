@@ -203,7 +203,7 @@ function multiplyBy(factor){
  console.log(numbers);
  console.log(doubled);
 
-// const numbers = [3, 4, 5, 6, 7].map((element) =>{
+ const numbers = [3, 4, 5, 6, 7].map((element) =>{
 //     console.log("Element:", element);
 //     return element * 2;
 // })
