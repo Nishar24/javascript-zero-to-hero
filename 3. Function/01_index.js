@@ -207,7 +207,7 @@ function multiplyBy(factor){
      console.log("Element:", element);
      return element * 2;
  })
-// const numbers = [3, 4, 5, 6, 7].map((element, index, array) =>{
+ const numbers = [3, 4, 5, 6, 7].map((element, index, array) =>{
 //     console.log("Element:", element);
 //     console.log("Index:", index);
 //     console.log("Array", array);
