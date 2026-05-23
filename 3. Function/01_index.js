@@ -209,7 +209,7 @@ function multiplyBy(factor){
  })
  const numbers = [3, 4, 5, 6, 7].map((element, index, array) =>{
      console.log("Element:", element);
-//     console.log("Index:", index);
+     console.log("Index:", index);
 //     console.log("Array", array);
 
 // }
