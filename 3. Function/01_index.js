@@ -212,7 +212,7 @@ function multiplyBy(factor){
      console.log("Index:", index);
      console.log("Array", array);
 
-// }
+ }
 // )
 
 // const numbers = [1, 2, 3, 4, 5, 6, 7, 7, 8, 9, 10];
