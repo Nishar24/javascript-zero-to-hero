@@ -220,7 +220,7 @@ function multiplyBy(factor){
  console.log(evenNumber);
 
 
-// const developer = [
+ const developer = [
 //     {name: "Nishar", age: 25},
 //     {name: "Manzar", age: 27},
 //     {name: "Shadab", age: 20},
