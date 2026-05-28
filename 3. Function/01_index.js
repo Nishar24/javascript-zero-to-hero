@@ -223,7 +223,7 @@ function multiplyBy(factor){
  const developer = [
      {name: "Nishar", age: 25},
      {name: "Manzar", age: 27},
-//     {name: "Shadab", age: 20},
+     {name: "Shadab", age: 20},
 //     {name: "Gabbar", age: 12}
 // ]
 
