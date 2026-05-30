@@ -227,7 +227,7 @@ function multiplyBy(factor){
      {name: "Gabbar", age: 12}
  ]
 
-// const youngPeople = developer.filter((person) => person.age < 25);
+ const youngPeople = developer.filter((person) => person.age < 25);
 // console.log(youngPeople);
 
 // const numbers =[1, 2, 3, 4, 5];
