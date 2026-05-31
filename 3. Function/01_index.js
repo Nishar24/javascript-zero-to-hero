@@ -231,7 +231,7 @@ function multiplyBy(factor){
  console.log(youngPeople);
 
  const numbers =[1, 2, 3, 4, 5];
-// const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+ const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 // console.log(sum);
 
 // const expenses = [120, 50, 30 ,200];
