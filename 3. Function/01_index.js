@@ -230,7 +230,7 @@ function multiplyBy(factor){
  const youngPeople = developer.filter((person) => person.age < 25);
  console.log(youngPeople);
 
-// const numbers =[1, 2, 3, 4, 5];
+ const numbers =[1, 2, 3, 4, 5];
 // const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 // console.log(sum);
 
