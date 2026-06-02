@@ -235,7 +235,7 @@ function multiplyBy(factor){
  console.log(sum);
 
  const expenses = [120, 50, 30 ,200];
-// const totalExpenses = expenses.reduce((sum, amount) => sum + amount, 0);
+ const totalExpenses = expenses.reduce((sum, amount) => sum + amount, 0);
 // console.log(totalExpenses);
 
 // const marks = [65, 70, 80, 75];
