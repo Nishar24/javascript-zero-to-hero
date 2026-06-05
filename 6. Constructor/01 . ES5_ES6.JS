@@ -2,7 +2,7 @@
 
 // Socho:
 
-// Constructor = Mobile banane ki machine
+// Constructor = Mobile banane ki machine.
 
 // new = Machine start karna
 
