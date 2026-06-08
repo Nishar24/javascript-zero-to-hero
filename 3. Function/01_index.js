@@ -240,7 +240,7 @@ function multiplyBy(factor){
 
  const marks = [65, 70, 80, 75];
  const total = marks.reduce((sum, number) => sum + number, 0);
-// console.log(total);
+ console.log(total);
 
 // const cart = [
 //     {item: "Pen", price: 10},
