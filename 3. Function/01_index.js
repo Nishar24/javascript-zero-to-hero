@@ -242,7 +242,7 @@ function multiplyBy(factor){
  const total = marks.reduce((sum, number) => sum + number, 0);
  console.log(total);
 
-// const cart = [
+ const cart = [
 //     {item: "Pen", price: 10},
 //     {item: "NoteBook", price: 50},
 //     {item: "Bag", price: 500}
