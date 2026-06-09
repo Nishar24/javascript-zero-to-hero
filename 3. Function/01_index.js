@@ -243,7 +243,7 @@ function multiplyBy(factor){
  console.log(total);
 
  const cart = [
-//     {item: "Pen", price: 10},
+     {item: "Pen", price: 10},
 //     {item: "NoteBook", price: 50},
 //     {item: "Bag", price: 500}
 // ];
