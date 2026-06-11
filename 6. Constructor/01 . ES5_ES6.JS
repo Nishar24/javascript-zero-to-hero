@@ -34,7 +34,7 @@ Mobile.prototype.showDetails = function (){
    
 }
 
-// Creating first mobile (using factory).
+// Creating first mobile (using factory)
 var mobile1 = new Mobile("Samsung", "S23", 70000);
 
 // Creating second mobile (using factory)
