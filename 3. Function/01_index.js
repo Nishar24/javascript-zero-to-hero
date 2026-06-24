@@ -8,7 +8,7 @@ const recipes = [];
    difficultyLevel: ""
  };
 
-//const recipe2 = {
+const recipe2 = {
   name: "Chicken Curry",
    ingredients: ["chicken breast", "coconut milk", "curry powder", "onion", "garlic"],
    cookingTime: 42,
