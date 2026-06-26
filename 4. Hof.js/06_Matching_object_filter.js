@@ -4,7 +4,7 @@ function whatIsInAName(collection, source) {
   // example: { apple: 1, bat: 2 } → ["apple", "bat"]
   const sourceKeys = Object.keys(source);
 
-  // collection array par filter lagaya
+  // collection array par filter lagaya.
   // filter sirf wahi objects ko rakhega jo condition pass kare
   return collection.filter(obj => {
 
