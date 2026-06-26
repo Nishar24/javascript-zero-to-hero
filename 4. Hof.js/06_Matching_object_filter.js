@@ -14,7 +14,7 @@ function whatIsInAName(collection, source) {
     return sourceKeys.every(key => {
 
       // obj ke paas wo key honi chahiye
-      // aur us key ka value source ke value ke equal hona chahiye
+      // aur us key ka value source ke value ke equal hona chahiye.
       return obj.hasOwnProperty(key) && obj[key] === source[key];
 
     });
