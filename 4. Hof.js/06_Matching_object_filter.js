@@ -5,7 +5,7 @@ function whatIsInAName(collection, source) {
   const sourceKeys = Object.keys(source);
 
   // collection array par filter lagaya.
-  // filter sirf wahi objects ko rakhega jo condition pass kare
+  // filter sirf wahi objects ko rakhega jo condition pass kare.
   return collection.filter(obj => {
 
     // every() check karega ki
