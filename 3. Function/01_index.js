@@ -9,7 +9,7 @@ const recipes = [];
  };
 
 const recipe2 = {
-  name: "Chicken Curry",
+  name: "Chicken Tikka",
    ingredients: ["chicken breast", "coconut milk", "curry powder", "onion", "garlic"],
    cookingTime: 42,
    totalIngredients: null,
