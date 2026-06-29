@@ -247,7 +247,7 @@ function multiplyBy(factor){
      {item: "NoteBook", price: 50},
      {item: "Bag", price: 500} ];
  const totalPrice = cart.reduce((sum, product) => sum + product.price, 0);
-// console.log(totalPrice);
+ console.log(totalPrice);
 
 
 // const results = "  Hello, World!  "
