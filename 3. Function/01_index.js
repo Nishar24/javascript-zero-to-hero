@@ -250,7 +250,7 @@ function multiplyBy(factor){
  console.log(totalPrice);
 
 
-// const results = "  Hello, World!  "
+ const results = "  Hello, World!  "
 //    .trim()
 //    .toLowerCase()
 //    .replace("World", "JavaScript");//isme w capital me h
