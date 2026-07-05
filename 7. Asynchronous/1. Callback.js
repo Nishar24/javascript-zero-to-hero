@@ -1,7 +1,7 @@
 // Step 1: Ek function jo chai banata hai
 function makeChai(callback) {
 
-  console.log("☕ Chai banana start...");
+  console.log("☕ Chai banana start ho chuka ...");
 
   // Step 2: Chai banne me time lagega (async kaam)
   setTimeout(() => {
