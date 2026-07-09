@@ -285,8 +285,7 @@ function multiplyBy(factor){
 //   .trim()
 //   .toLowerCase()
 //   .split(" ")
-
-// console.log(result);
+ console.log(result);
 
 let obj = {
     value: 1,
