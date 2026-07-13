@@ -254,7 +254,7 @@ function multiplyBy(factor){
     .trim()
     .toLowerCase()
     .toUpperCase()
-//    .replace("World", "JavaScript");//isme w capital me h
+    .replace("World", "JavaScript");//isme w capital me h
 
 // console.log(results);
 
