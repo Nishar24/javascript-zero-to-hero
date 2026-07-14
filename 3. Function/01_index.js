@@ -256,7 +256,7 @@ function multiplyBy(factor){
     .toUpperCase()
     .replace("World", "JavaScript");//isme w capital me h
 
-// console.log(results);
+ console.log(results);
 
 // const result = "  Hello, World!  "
 //   .trim()
