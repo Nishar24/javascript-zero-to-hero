@@ -258,7 +258,7 @@ function multiplyBy(factor){
 
  console.log(results);
 
-// const result = "  Hello, World!  "
+ const result = "  Hello, World!  "
 //   .trim()
 //   .toLowerCase()
 //   .replace("world", "JavaScript");
