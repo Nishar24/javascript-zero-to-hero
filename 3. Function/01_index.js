@@ -264,7 +264,7 @@ function multiplyBy(factor){
    .toUpperCase()
    .replace("world", "JavaScript");
 
-// console.log(result); // "hello, JavaScript!"
+console.log(result); // "hello, JavaScript!"
 
 // const transaction = [
 //     {amount: 100, type: "credit"},
