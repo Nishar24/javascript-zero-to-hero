@@ -266,7 +266,7 @@ function multiplyBy(factor){
 
 console.log(result); // "hello, JavaScript!"
 
-// const transaction = [
+const transaction = [
 //     {amount: 100, type: "credit"},
 //     {amount: 20, type: "cash"},
 //     {amount: 150, type: "credit"},
