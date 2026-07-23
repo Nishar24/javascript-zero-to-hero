@@ -272,7 +272,7 @@ const transaction = [
      {amount: 150, type: "credit"},
      {amount: 50, type: "cash"},
      {amount: 75, type: "credit"}
-// ]
+ ]
 
 // const totalCreditWithBonus = transaction
 //    .filter((transaction) => transaction.type === "credit")
