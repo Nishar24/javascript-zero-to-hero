@@ -271,7 +271,7 @@ const transaction = [
      {amount: 20, type: "cash"},
      {amount: 150, type: "credit"},
      {amount: 50, type: "cash"},
-//     {amount: 75, type: "credit"}
+     {amount: 75, type: "credit"}
 // ]
 
 // const totalCreditWithBonus = transaction
