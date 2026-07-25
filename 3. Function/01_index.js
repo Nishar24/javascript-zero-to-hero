@@ -274,7 +274,7 @@ const transaction = [
      {amount: 75, type: "credit"}
  ]
 
-// const totalCreditWithBonus = transaction
+ const totalCreditWithBonus = transaction
 //    .filter((transaction) => transaction.type === "credit")
 //    .map((transaction) => transaction.amount * 1.1)
 //    .reduce((sum, amount) => sum + amount, 0)
