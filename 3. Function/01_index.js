@@ -282,7 +282,7 @@ const transaction = [
    console.log(totalCreditWithBonus);
    
 
-// let str = "  HELLO world  ";
+let str = "  HELLO world  ";
 // let result = str
 //   .trim()
 //   .toLowerCase()
