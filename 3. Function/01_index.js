@@ -279,7 +279,7 @@ const transaction = [
    .map((transaction) => transaction.amount * 1.1)
    .reduce((sum, amount) => sum + amount, 0)
 
-//    console.log(totalCreditWithBonus);
+   console.log(totalCreditWithBonus);
    
 
 // let str = "  HELLO world  ";
