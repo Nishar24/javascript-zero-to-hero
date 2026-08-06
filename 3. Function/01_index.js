@@ -283,7 +283,7 @@ const transaction = [
    
 
 let str = "  HELLO world  ";
-// let result = str
+let result = str
 //   .trim()
 //   .toLowerCase()
 //   .split(" ")
