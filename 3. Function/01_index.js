@@ -3,7 +3,7 @@
  const recipe1 = {
   name: "Spaghetti Carbonara",
    ingredients: ["spaghetti", "Parmesan cheese", "pancetta", "black pepper"], 
-   cookingTime: 32,
+   cookingTime: 34,
    totalIngredients: null,
    difficultyLevel: ""
  };
