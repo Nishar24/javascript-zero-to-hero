@@ -284,7 +284,7 @@ const transaction = [
 
 let str = "  HELLO world  ";
 let result = str
-//   .trim()
+   .trim()
 //   .toLowerCase()
 //   .split(" ")
  console.log(result);
