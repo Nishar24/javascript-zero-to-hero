@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Delegation</title>
+</head>
+<body>
+    <div id="taskContainer">
+        <button class="task-btn">Task 1</button>
+        <button class="task-btn">Task 2</button>
+    </div>
+    <button id="addTask">Add New Task</button>
+
+    <script>
+        // 📌 Step 1: Parent ko pakad lo (ye hamara "monitor" hai)
+const container = document.getElementById("taskContainer");
+
+// 📌 Step 2: Sirf parent par event listener lagaya
+container.addEventListener("click", function(event) {
+
+  // 🎯 Check karo kya click button par hua hai
+  // event.target = jis par actual click hua
+  if (event.target.classList.contains("task-btn")) {
+    
+    // 🏫 Kahani:
+    // Student ne haath uthaya (button click kiya)
+    // Monitor ne identify kiya kaunsa student hai
+    console.log("You clicked:", event.target.textContent);
+  }
+});
+
+
+// 📌 Step 3: Dynamically new task add karna
+const addBtn = document.getElementById("addTask");
+
+addBtn.addEventListener("click", function() {
+
+  // 🆕 Naya button create kiya (naya student aaya school me)
+  const newButton = document.createElement("button");
+  
+  newButton.textContent = "New Task";
+  newButton.classList.add("task-btn");
+
+  container.appendChild(newButton);
+
+  // ❗ Notice:
+  // Humne newButton par koi event listener nahi lagaya
+  // Fir bhi click karega kyunki parent handle kar raha hai
+});
+    </script>
+</body>
+</html>
