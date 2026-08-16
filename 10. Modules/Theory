@@ -23,7 +23,7 @@ export const add = (a, b) => a + b;
 export const sub = (a, b) => a - b;
 ```
 
-### 🔹 Import kaise karte hain?
+### 🔹 Import kaise karte hain?..
 
 ```js
 // app.js
