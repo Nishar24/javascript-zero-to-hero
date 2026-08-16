@@ -286,7 +286,7 @@ let str = "  HELLO world  ";
 let result = str
    .trim()
    .toLowerCase()
-//   .split(" ")
+   .split(" ")
  console.log(result);
 
 let obj = {
