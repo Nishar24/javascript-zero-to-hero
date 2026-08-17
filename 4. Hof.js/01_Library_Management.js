@@ -1,5 +1,5 @@
 const library = [ 
-  //Detail about books of the library
+  //Detail about books of the library...
   {
     title: 'Your Next Five Moves: Master the Art of Business Strategy',
     author: 'Patrick Bet-David and Greg Dinkin',
