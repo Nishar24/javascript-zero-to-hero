@@ -41,7 +41,7 @@ const library = [
     title: 'Rich Dad Poor Dad',
     author: 'Robert Kiyosaki and Sharon Lechter',
     about: 'A book about financial literacy, financial independence, and building wealth. ',
-    pages: 336,
+    pages: 306,
   },
   {
     title: 'Zero to Sold',
