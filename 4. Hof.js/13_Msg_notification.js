@@ -1,4 +1,5 @@
 // Return krna h HOF ka use kr k
+// Phle 2 function bnaya
 
 function emailNotification(){
     console.log("Message sent successfully");
