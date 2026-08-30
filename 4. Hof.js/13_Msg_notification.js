@@ -10,7 +10,7 @@ function textNotification(){
     console.log("Text message sent successfully");
     
 }
-
+ // Phir yha Higher Order Function bnaya 
 function msgType(type){
     if(type === "Email"){
         return emailNotification
