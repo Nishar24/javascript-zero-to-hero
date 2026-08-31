@@ -1,7 +1,7 @@
 // 🧠 Kahani
 
 // Ek beta hai 👦
-// Wo apne papa ki almari se cheeze le sakta hai
+// Wo apne papa ki almari se cheeze le sakta hai.
 // Par papa beta ki almari se nahi le sakte
 
 // 👉 Inner function outer ko access kar sakta hai
