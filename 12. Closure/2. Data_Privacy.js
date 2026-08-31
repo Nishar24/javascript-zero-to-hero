@@ -1,4 +1,4 @@
-// function secret(){
+function secret(){
 //     let password = "1234";
 
 //     return function(){
