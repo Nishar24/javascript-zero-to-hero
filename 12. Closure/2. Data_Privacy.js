@@ -1,7 +1,7 @@
 function secret(){
      let password = "1234";
 
-//     return function(){
+     return function(){
 //         console.log(password);
 //     };
 // }
