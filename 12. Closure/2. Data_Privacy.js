@@ -3,7 +3,7 @@ function secret(){
 
      return function(){
          console.log(password);
-//     };
+     };
 // }
 
 // const getPassword = secret();
