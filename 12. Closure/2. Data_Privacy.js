@@ -1,5 +1,5 @@
 function secret(){
-//     let password = "1234";
+     let password = "1234";
 
 //     return function(){
 //         console.log(password);
