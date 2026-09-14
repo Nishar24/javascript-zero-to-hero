@@ -8,7 +8,7 @@
 // 👉 Outer function inner ko nahi
 
 function outer(){
-    let a = 10;
+    let a = 20;
 
     function inner(){
         console.log(a);
