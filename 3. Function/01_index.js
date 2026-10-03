@@ -1,12 +1,12 @@
- const recipes = [];
+ // const recipes = [];
 
- const recipe1 = {
-  name: "Spaghetti Carbonara",
-   ingredients: ["spaghetti", "Parmesan cheese", "pancetta", "black pepper"], 
-   cookingTime: 34,
-   totalIngredients: null,
-   difficultyLevel: ""
- };
+ // const recipe1 = {
+ //  name: "Spaghetti Carbonara",
+ //   ingredients: ["spaghetti", "Parmesan cheese", "pancetta", "black pepper"], 
+ //   cookingTime: 34,
+ //   totalIngredients: null,
+ //   difficultyLevel: ""
+ // };
 
 const recipe2 = {
   name: "Chicken Tikka",
