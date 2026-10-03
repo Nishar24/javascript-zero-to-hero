@@ -8,21 +8,21 @@
  //   difficultyLevel: ""
  // };
 
-const recipe2 = {
-  name: "Chicken Tikka",
-   ingredients: ["chicken breast", "coconut milk", "curry powder", "onion", "garlic"],
-   cookingTime: 46,
-   totalIngredients: null,
-   difficultyLevel: ""
-};
+// const recipe2 = {
+//   name: "Chicken Tikka",
+//    ingredients: ["chicken breast", "coconut milk", "curry powder", "onion", "garlic"],
+//    cookingTime: 46,
+//    totalIngredients: null,
+//    difficultyLevel: ""
+// };
 
- const recipe3 = {
-   name: "Vegetable Stir Fry",
-   ingredients: ["broccoli", "Onion", "bell pepper"],
-   cookingTime: 15,
-   totalIngredients: null,
-   difficultyLevel: ""
- };
+//  const recipe3 = {
+//    name: "Vegetable Stir Fry",
+//    ingredients: ["broccoli", "Onion", "bell pepper"],
+//    cookingTime: 15,
+//    totalIngredients: null,
+//    difficultyLevel: ""
+//  };
 
 
  recipes.push(recipe1, recipe2, recipe3);
